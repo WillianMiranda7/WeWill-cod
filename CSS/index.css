@@ -39,14 +39,18 @@
 }
 
 .cardFirsts {
-    background-color: var(--colorBackOfCards);
     padding: 20px;
+    background-color: var(--colorBackOfCards);
+    border: solid 1px var(--color30);
+
 }
 
 .cardFirsts img {
     width: 32px;
     margin-bottom: 16px;
 }
+
+
 
 
 /* Seção Portfólio */
@@ -72,6 +76,8 @@
     padding-bottom: 96px;
     background-color: var(--colorBackOfCards);
     position: relative;
+    border: solid 1px var(--color30);
+
 }
 .portfolioCard{
     width: 100%;
@@ -124,6 +130,8 @@
     width: 100%;
     padding: 24px;
     background-color: var(--colorBackOfCards);
+    border: solid 1px var(--color30);
+
 }
 .servicesCard h2{
     margin-bottom: 8px;

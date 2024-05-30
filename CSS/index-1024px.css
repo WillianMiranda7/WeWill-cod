@@ -1,0 +1,132 @@
+@media screen and (min-width: 1024px) {
+    #firstTitle {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 64px 10%;
+
+    }
+
+    #firstTitle h1 {
+        font-size: 5.5rem;
+    }
+
+
+    #agencyCharacteristics {
+        padding: 64px 5%;
+    }
+
+    #cardGroup {
+        display: grid;
+        grid-template-rows: unset;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 8px;
+        align-content: center;
+        justify-content: center;
+        row-gap: 8px;
+    }
+
+
+
+    /* Portfólio */
+
+    #portfolio {
+        padding: 5%;
+    }
+
+    #cardGroupPortfolio {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+
+    /* Serviços */
+
+    #services{
+        padding: 64px 5%;
+    }
+
+    #cardGoupServices {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+
+
+    /* Quem Somos */
+
+    #about{
+        padding: 64px 5%;
+    }
+    #socialProjects{
+        padding: 64px 5%;
+    }
+
+    #contactForm{
+        padding: 64px 5%;
+    }
+
+    form{
+        grid-template-areas:
+        "name surname"
+        "tel email"
+        "mensage mensage"
+        "button button"
+        ;
+        align-content: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 32px;
+    }
+
+    #clientFirstName{
+        width: 300px;
+        grid-area: name;
+    }
+    #clientSecondName{
+        width: 300px;
+        grid-area: surname;
+    }
+    #clientTel{
+        grid-area: tel;
+    }
+    #clientEmail{
+        grid-area: email;
+    }
+    #menssageArea{
+        grid-area: mensage;
+        height: 150px;
+    }
+    form button{
+        grid-area: button;
+        align-self: flex-end;
+    }
+
+
+
+    /* WhatsApp link */
+
+    #wppLink{
+        padding: 88px 0px;
+    }
+
+}
+
+
+@media screen and (min-width: 1279px) {
+    header{
+        flex-direction: row;
+    }
+
+    #firstTitle h1 {
+        font-size: 7rem;
+    }
+}

@@ -9,6 +9,7 @@
     text-decoration: none;
     max-width: 100%;
     border-style: none;
+    overflow-x: hidden;
 }
 
 :root {
@@ -42,7 +43,8 @@
 
 body {
     background-color: var(--color60);
-    max-width: 100%;
+    width: 100%;
+    max-width: 1440px;
 }
 
 h1,
@@ -161,15 +163,14 @@ header {
 }
 
 
-.sectionsTitle{
+.sectionsTitle {
     margin-bottom: 32px;
 }
 
 
-
 /* Footer */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;

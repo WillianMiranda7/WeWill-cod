@@ -1,0 +1,58 @@
+@media screen and (min-width: 1024px) {
+    #menuHamburger {
+        display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #menuUl {
+        display: flex;
+        position: unset;
+        right: 0;
+        background-color: var(--colorContrast);
+        padding: 0;
+        height: 50px;
+
+        border-radius: 0;
+        box-shadow: unset;
+        transition: .5s;
+        overflow: hidden;
+
+    }
+
+    
+    #menuUl li{
+        padding: 10px 8px 4px 0;
+        margin: 0;
+        margin-right: 8px;
+        border-bottom: unset;
+        position: relative;
+    }
+    .widthAfter::after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+        height: 4px;
+        width: 0%;
+        background-color: var(--color10);
+        transition: 1s;
+    }
+    
+    .widthAfter:hover::after{
+        width: 100%;
+        transition: .2s;
+    }
+    
+    #contactLi{
+        border: solid 2px var(--color10);
+        padding: 4px 8px;
+    }
+
+    
+}
