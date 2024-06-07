@@ -9,7 +9,6 @@
     text-decoration: none;
     max-width: 100%;
     border-style: none;
-    overflow-x: hidden;
 }
 
 :root {
@@ -46,10 +45,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
+    scroll-behavior: auto;
 }
 
 #content{
     max-width: 1441px;
+    width: 100%;
 }
 
 h1,
