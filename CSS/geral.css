@@ -44,7 +44,12 @@
 body {
     background-color: var(--color60);
     width: 100%;
-    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    max-width: 1441px;
 }
 
 h1,

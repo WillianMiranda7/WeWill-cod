@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+
     #menuHamburger {
         display: none;
     }
@@ -16,7 +17,7 @@
         right: 0;
         background-color: var(--colorContrast);
         padding: 0;
-        height: 50px;
+        height: 45px;
 
         border-radius: 0;
         box-shadow: unset;
@@ -27,21 +28,23 @@
 
     
     #menuUl li{
-        padding: 10px 8px 4px 0;
-        margin: 0;
-        margin-right: 8px;
-        border-bottom: unset;
         position: relative;
+        font-size: 1.1rem;
+        padding: 10px 8px 2px 0;
+        margin: 0;
+        margin-right: 16px;
+        border-bottom: unset;
     }
     .widthAfter::after{
         position: absolute;
-        bottom: 0;
-        left: 0;
         content: "";
-        height: 4px;
+        bottom: 6;
+        left: 0;
+        height: 2px;
         width: 0%;
         background-color: var(--color10);
-        transition: 1s;
+        box-shadow: 1px 1px 3px var(--color10), -1px -1px 3px var(--color10) ;
+        transition: .1s;
     }
     
     .widthAfter:hover::after{
@@ -52,6 +55,10 @@
     #contactLi{
         border: solid 2px var(--color10);
         padding: 4px 8px;
+    }
+
+    button{
+        cursor: pointer;
     }
 
     
